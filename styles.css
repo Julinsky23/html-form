@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,@1,500;1,700&family=Open+Sans&family=Outfit:wght@300;400;600&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap');
+
+:root{
+    --dark-slate-grey: hsl(234, 29%, 20%);
+    --charcoal-grey: hsl(235, 18%, 26%);
+    --grey: hsl(231, 7%, 60%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text{
+    color: var(--charcoal-grey);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 45px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+body{
+    background-color: var(--dark-slate-grey);
+
+}
+
+.card{
+ 
+    margin: 100px auto;
+    background-color: white;
+    max-width: 600px;
+    height: 700px;   
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+input{
+    display: flex;
+    margin: 10px 10px;
+    border-radius: 7px; /*ränder der eingabefelder*/
+    width: 400px;
+    font-size: 20px;
+    
+}
+
+textarea{
+    width: 400px;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+ 
+   
+}
+
+.button-send{
+    color: whitesmoke;
+    background-color: gray;
+    border-radius: 8px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    padding-left: 65px;
+}
